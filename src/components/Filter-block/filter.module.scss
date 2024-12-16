@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+  z-index: 100;
+  border-radius: 5px;
+  background: #fff;
+  -webkit-box-shadow: -1px 3px 13px 0px rgba(173, 173, 173, 1);
+  -moz-box-shadow: -1px 3px 13px 0px rgba(173, 173, 173, 1);
+  box-shadow: -1px 3px 13px 0px rgba(173, 173, 173, 1);
+
+  .filterBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+
+    h2 {
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    &_currencyButtons {
+      display: flex;
+    }
+  }
+}
